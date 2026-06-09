@@ -4,11 +4,11 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes
 
 # 🔑 Твій токен
-TOKEN = "7658069538:AAGg3ln8fyPhindqzJWQhli_7vitEBOhZWw"
+TOKEN = ""
 # TOKEN = "ВСТАВ_СЮДИ_ТОКЕН_З_BOTFATHER"
 
 # 🔗 Лінк на CSV
-CSV_URL = "https://docs.google.com/spreadsheets/d/1WABeYlt2gBW0ADi2iutxQztu1DAHUY3w0Ap83XQnfHo/export?format=csv"
+CSV_URL = ""
 # CSV_URL = "https://docs.google.com/spreadsheets/d/ID/export?format=csv"
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
